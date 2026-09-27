@@ -1,0 +1,291 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(187, 19, 19, 0.04);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f1a67b; 
+  text-decoration: none;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  gap: 24px; 
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+ 
+  transition: color 0.2s ease;
+  padding: 8px 0;
+  position: relative;
+}
+
+
+.nav-links:hover {
+  color: #fd3939;
+  box-shadow: #8d5016;
+  
+}
+
+.nav-links:active {
+  color: #7598c5;
+  text-decoration: none;
+ 
+}
+.nav-links:visited {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #964242; 
+}
+
+.nav-links a.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fffdfd;
+}
+.patrick-fashion {
+  font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+  padding: 0;
+  max-width: 1200px;
+ text-align: justify;
+ margin:auto;
+}
+
+.patrick-fashion h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #202124;
+  margin-bottom: 16px;
+}
+
+
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px; 
+}
+
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px; 
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(194, 68, 68, 0.5);
+}
+
+
+.image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 16px; 
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.info:link{
+  background-color: rgb(235, 65, 99);
+}
+.info:visited{
+background-color: #202124;
+}
+
+.butten{
+  background-color: rgb(235, 65, 99);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 8px;
+ 
+  border-radius: 4px;
+}
+.butten:hover {
+  background-color: rgb(56, 3, 3);
+  cursor: pointer;
+}
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+ 
+  text-emphasis-style: Bold;
+}
+
+.price {
+  font-size: 20px; 
+  color: #f70d34;
+  
+}
+
+body {
+font-family: 'Inter', sans-serif;
+background-color: #f0f3f8;
+color: #333333;
+}
+
+.discrition {
+max-width: 900px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 2.5rem;
+}
+
+h2 {
+font-size: 1.5rem;
+font-weight: 700;
+color: #03142e;
+}
+
+.subtitle {
+font-size: 0.875rem;
+color: #000000;
+margin-top: 0.25rem;
+}
+
+
+.card1 {
+background: #ffffff;
+border-radius: 12px;
+
+text-emphasis-color: bold;
+}
+p{
+  color: black;
+text-emphasis-style: bold;  
+}
+.image-container {
+background-color: white;
+color: #e2e8f0;
+
+}
+
+
+.main {
+background: #ffffff;
+border-radius: 12px;
+padding: 2rem;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+border: 1px solid #e2e8f0;
+}
+
+
+.card2 {
+background-color: #ffffff;
+border: 1px solid #cbd5e1;
+border-radius: 16px;
+padding: 1.75rem;
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+margin-top: 1.5rem;
+display: flex;
+flex-direction: column;
+gap: 1.25rem;
+}
+
+.outer-header{
+background-color: #e0e7ff;
+
+font-weight: 700;
+
+}
+
+
+
+.outer-header p {
+font-size: 0.875rem;
+color: #475569;
+margin-top: 0.25rem;
+}
+
+.inner-card {
+background-color: #f8fafc;
+border: 1px solid #e2e8f0;
+
+}
+
+.inner-card:hover {
+border-color: #cbd5e1;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.inner-card-header {
+display: flex;
+align-items: center;
+gap: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
